@@ -28,22 +28,26 @@
 
 <script>
   var groups = new vis.DataSet([
-    {id: 0, content: 'First', value: 1},
-    {id: 1, content: 'Third', value: 3},
-    {id: 2, content: 'Second', value: 2}
+    {id: 0, content: 'Ahmedabad', value: 1},
+    {id: 1, content: 'Pune', value: 3},
+        {id: 3, content: 'Godatiri Ger-mani', value: 4},
+
+    {id: 2, content: 'Amba', value: 2}
   ]);
 
   // create a dataset with items
   // note that months are zero-based in the JavaScript Date object, so month 3 is April
   var items = new vis.DataSet([
     {id: 0, group: 0, content: 'Nitin', start: new Date(2015, 7, 23), end: new Date(2015, 7, 26)},
-    {id: 1, group: 0, content: 'Nitin ki item', start: new Date(2015, 7, 24), end: new Date(2015, 7, 26)},
+    {id: 1, group: 0, content: 'Nitin ki item :P', start: new Date(2015, 7, 24), end: new Date(2015, 7, 26)},
     {id: 2, group: 2, content: 'Guru', start: new Date(2015, 7, 24), end: new Date(2015, 7, 25)},
     {id: 7, group: 2, content: 'Khara Mavala', start: new Date(2015, 7, 24), end: new Date(2015, 7, 25)},
     {id: 4, group: 2, content: 'Bboy', start: new Date(2015, 7, 24), end: new Date(2015, 7, 26)},
     {id: 5, group: 1, content: 'Patrakar', start: new Date(2015, 7, 24), end: new Date(2015, 7, 27)},
+        {id: 10, group: 3, content: 'Umate Patil', start: new Date(2015, 7, 24), end: new Date(2015, 7, 27)},	
+
     {id: 9, group: 1, content: 'Chandu', start: new Date(2015, 7, 24), end: new Date(2015, 7, 27)},	
-	  {id: 8, group: 1, content: 'Kabutar premi', start: new Date(2015, 7, 24), end: new Date(2015, 7, 28)}
+    {id: 8, group: 1, content: 'Kabutar premi', start: new Date(2015, 7, 24), end: new Date(2015, 7, 28)}
 	
   ]);
 
